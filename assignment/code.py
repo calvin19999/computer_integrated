@@ -79,7 +79,7 @@ def extract_information_from_invoice(image_path):
     return invoiceno, date,max_number
  
     
-# Example usage
+
 folder_path = "picture/"  # Replace with the path to your folder
 file_list = os.listdir(folder_path)
 invoicetable=[]
